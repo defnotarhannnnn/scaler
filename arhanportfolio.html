@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <header>
+      <div class="name">ARHAN DAS</div>
+      <nav>
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <style>
+      /* Overall design */
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgb(57, 57, 57);
+      }
+      h2 {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      /* Header and navigation designing */
+      header {
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(195, 202, 231);
+        color: rgb(46, 45, 45);
+        padding: 5px;
+        border-radius: 10px;
+      }
+      header .name {
+        display: flex;
+        align-items: center;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        padding: 10px;
+        font-weight: bold;
+      }
+      header nav ul {
+        display: flex;
+        list-style-type: none;
+      }
+      header nav ul li {
+        display: flex;
+        color: white;
+        justify-content: space-evenly;
+        text-decoration: none;
+        padding: 10px;
+      }
+      header nav ul li :hover {
+        color: rgb(226, 59, 59);
+      }
+      /* About section designing */
+      .aboutme {
+        margin-top: 20px;
+        background-color: rgb(195, 203, 255);
+        padding: 5px;
+        border-radius: 10px;
+      }
+      .aboutme h2 {
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 50px;
+      }
+      .aboutme p {
+        text-align: center;
+        color: rgb(235, 235, 235);
+        word-spacing: 2px;
+        padding: 5px;
+        font-size: 20px;
+      }
+      /* Skills section */
+      .myskills {
+        padding: 10px;
+        background-color: rgb(161, 178, 255);
+        margin-top: 20px;
+        border-radius: 10px;
+      }
+      .myskills h2 {
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-size: 50px;
+      }
+      .myskills .items {
+        display: flex;
+        flex-wrap: wrap;
+        
+      }
+      .myskills .items .content 
+      .myskills .items .content img {
+        display: flex;
+        width: 260px;
+        padding: 10px;
+        justify-content: center;
+      }
+      .myskills .items .content h3 {
+        text-align: center;
+        margin-bottom: 15px;
+      }
+      @media (max-width: 1000px) {
+        body {
+          background-color: aqua;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section id="about" class="aboutme">
+      <h2>WHO AM I</h2>
+      <p>
+        My name is Arhan Das, and I hail from the vibrant city of Kharagpur in
+        West Bengal. My educational journey commenced at Sacred Heart High
+        School, followed by St. Agnes School, where I laid the foundation for my
+        academic pursuits. As a highly skilled and driven individual, I am
+        constantly seeking new challenges and opportunities to expand my
+        knowledge and expertise in the tech industry. With a firm background in
+        programming, particularly in Java and Python, and a deep understanding
+        of computer hardware, I am well-equipped to take on any project. In
+        addition to my technical skills, I also have a passion for creative
+        pursuits as well. I have honed my video editing skills and have a keen
+        eye for detail. My proficiency in FL Studio has also enabled me to
+        create original music and sound effects for my projects. Besides, I also
+        have a keen interest in mobile technology, I have delved into android
+        testing and tweaking kernels and have gained a comprehensive
+        understanding of the intricacies of this platform. This has not only
+        expanded my skill set but has also given me a broader perspective on the
+        ever-evolving world of technology. Apart from my technical abilities, I
+        am also an avid stock trader. My passion for trading and investing has
+        allowed me to develop a strong understanding of the market, and I am
+        always looking for new strategies to enhance my portfolio. With a strong
+        work ethic and a dedication to continuous learning, I am confident in my
+        abilities to contribute to any team or project. I am seeking
+        opportunities that will allow me to learn further and therefore twelve
+        deeper into the world of tech.
+      </p>
+    </section>
+    <section id="skills" class="myskills">
+      <h2>MY COMPETENCIES</h2>
+      <div class="items">
+        <div class="content">
+          <h3>JAVA</h3>
+          <img
+            src="https://www.finoit.com/wp-content/uploads/2022/09/java-coding-best-practices.jpg"
+            alt=""
+          />
+          <p>
+            Skilled JAVA programmer with expertise in array, string
+            manipulation, mathematics, data structures and OOP principles.
+          </p>
+        </div>
+        <div class="content">
+          <h3>PYTHON</h3>
+          <img
+            src="https://miro.medium.com/v2/resize:fit:1400/0*oV6NUnvgoOT-0tKF"
+            alt=""
+          />
+          <p>
+            Proficient Python developer with strong experience in array,
+            tupples, dictionary, string manipulation, data structures and
+            maths. Skilled in leveraging libraries such as Pandas, NumPy to
+            build efficient and scalable solutions. 
+          </p>
+        </div>
+        <div class="content">
+          <h3>DAVINCI RESOLVE</h3>
+          <img
+            src="https://images.blackmagicdesign.com/images/products/davinciresolve/color/colorwheels/colorwheels-md.jpg?_v=1601630234"
+          />
+          <p>
+            Skilled JAVA programmer with expertise in array, string
+            manipulation, mathematics, data structures and OOP principles.
+          </p>
+        </div>
+        <div class="content">
+          <h3>FL STUDIO</h3>
+          <img
+            src="https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/img_shot/basics_interface.png"
+            alt=""
+          />
+          <p>
+            Experienced in FL Studio with a strong background in music
+            composition and sound design. Proficient in  mixing, editing and
+            mastering sound using the advanced features of FL Studio.
+          </p>
+        </div>
+        <div class="content">
+          <h3>SKETCH AND PAINTING</h3>
+          <img
+            src="https://i.ytimg.com/vi/44SRMiCVMOs/maxresdefault.jpg"
+            alt=""
+          />
+          <p>
+            I also draw and sketch sometimes as a recreational activity. My art
+            expertise extends to water painting, pencil and pen sketching,
+            emboss painting, glass painting, cloth painting and oil painting.
+          </p>
+        </div>
+        <div class="content">
+          <h3>EQUITY TRADING</h3>
+          <img
+            src="https://mi-uploads-live.s3.amazonaws.com/wp-content/uploads/2018/09/22071136/equity-trading.jpg"
+            alt=""
+          />
+          <p>
+            A learning investor and equity trader, looking forward to enhance my
+            current portfolio.
+          </p>
+        </div>
+        <div class="content">
+          <h3>MOBILE PHOTOGRAPHY AND VIDEOGRAPHY</h3>
+          <img
+            src="https://momofilmfest.com/wp-content/uploads/2018/09/bg_interview_ac9887b0-0edd-4a40-98c0-ea887a888f32_grande.jpg"
+            alt=""
+          />
+          <p>
+            A keen eye for detail and composition. Proficient in utilizing
+            advanced mobile camera features and editing apps to produce stunning
+            visuals.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

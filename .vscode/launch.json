@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "palindrome",
+            "projectName": "coding_574b40d1"
+        },
+        {
+            "type": "java",
+            "name": "fizz_buzz",
+            "request": "launch",
+            "mainClass": "fizz_buzz",
+            "projectName": "coding_574b40d1"
+        },
+        {
+            "type": "java",
+            "name": "elephant",
+            "request": "launch",
+            "mainClass": "elephant",
+            "projectName": "coding_574b40d1"
+        },
+        {
+            "type": "java",
+            "name": "time",
+            "request": "launch",
+            "mainClass": "time",
+            "projectName": "coding_574b40d1"
+        },
+        {
+            "type": "java",
+            "name": "johny",
+            "request": "launch",
+            "mainClass": "johny",
+            "projectName": "coding_574b40d1"
+        },
+        {
+            "name": "(lldb) Attach",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "enter program name, for example ${workspaceFolder}/a.out",
+            "MIMode": "lldb"
+        }
+    ]
+}
